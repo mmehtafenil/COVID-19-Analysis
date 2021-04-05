@@ -3,11 +3,9 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image, ImageOps
 import os
-from pymongo import MongoClient
 from datetime import datetime
 import uuid
 
-import imgto64
 
 
 model = tf.keras.models.load_model('model.hdf5')
